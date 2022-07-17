@@ -1,0 +1,259 @@
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1186px) {
+  .dropdown-menu {
+    left: 25% !important;
+    width: fit-content !important;
+  }
+}
+
+@media (max-width: 1108px) {
+  .dropdown-menu {
+    left: 20% !important;
+    width: fit-content !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+
+  .productsCycleDetails p{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .dropdown-menu {
+    left: 20% !important;
+    width: fit-content !important;
+}
+}
+
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .megamenuRow {
+    width: 100%;
+}
+
+  .col-megamenu{
+    width: 100%;
+  }
+
+  .firstMegaMenuSection {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .productsMobileItemDesc h3{
+    font-size: 3.5rem;
+  }
+
+  .products p {
+    margin: 2% 0 ;
+  }
+
+  .productsDesktop{
+    display: none;
+  }
+
+  .productsMobile{
+    display: block;
+    margin: 0 auto 0 auto; 
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* product item mobile section */
+  .vl{
+    border-left: 1rem solid #fff;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    z-index: -1;
+  }
+  .productsMobileItem{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 15%;
+    width: fit-content;
+  }
+
+  .productsMobileItemIcon{
+    border-radius: 50%;
+    padding: 3%;
+    color: #000;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .productsMobileItemIcon i{
+    font-size: 5rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+
+  .col-megamenu {
+    width: 100%;
+  }
+
+  .footer h3 {
+    margin-top: 1.5rem;
+  }
+
+  .singleProduct {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .megamenu{
+    width: 100%;
+  }
+
+  .megamenuRow {
+    width: 100%;
+    margin: 0;
+  }
+
+  .firstMegaMenuSection{
+    width: 100%;
+  }
+
+  .megamenuSecondCol{
+    width: 100%;
+    max-width: 100%;
+    
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 30%;
+  }
+
+  .footer h3 {
+    font-size: 3rem;
+  }
+
+  .footerList ul li a{
+    font-size: 2.7rem;
+  }
+
+  .col-megamenu {
+    width: 100%;
+    padding: 5%;
+  }
+}
+
+
+/* additional responsive */
+
+@media only screen and (max-width: 1200px) and (min-width: 991px)  {
+  .home .homeContentLeft .greenbtn, .home .homeContentLeft .bluebtn{width: 60%}
+  .SecondProductsSection{margin-top: 25%}
+}
+
+
+@media screen and (max-width: 1440px) {
+  .productsCycleDetails{width: auto}
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutSecondSection{padding: 10% 0}
+}
+
+@media screen and (max-width: 1225px) {
+  .productsCycleDetails {width: auto}
+  .footer{padding: 150px 8% 2% 8%}
+}
+
+@media screen and (max-width: 991px) {
+  .home .homeContent{text-align: center;padding: 20px}
+  .home .homeContentLeft h1, .home .homeContentLeft .single-encapsulation{padding: 0 120px}
+  .home .homeContentLeft p {width: 100%}
+  .home .homeContentRight{justify-content: center}
+  .homeLogoImg {margin: 10px 0}
+  .svgGroup2A {right: 60%}
+  .aboutSecondContent p {margin: 1.5% 20%}
+  .aboutImg {width: 100%; height: auto}
+  .productsSVGBackground {display: none}
+  .productsDescription .productsDescriptionDetails {margin-right: auto;margin-left: auto;width: 100%;text-align: center}
+  
+  .productsCycleDetails{margin-left: auto;margin-top: 50px}
+  .cycleSVG{top: 250px;left: 50%;transform: translateX(-50%)}
+  .footer {padding: 150px 5% 5%}
+  .footer h3 {margin-top: 3rem}
+}
+
+@media screen and (max-width: 767px) {
+  .home .homeContentLeft h1, .home .homeContentLeft .single-encapsulation{padding: 0 60px}
+  .home .homeContentLeft .startbtn{padding: 0 60px}
+  .home .homeContentLeft .greenbtn, .home .homeContentLeft .bluebtn{width: 90%;padding: 3.5% 7%}
+  .svgGroup1A, .svgGroup1B{display: none}
+  .svgGroup1{display: block}
+  .svgGroup2A {right: 50%}
+  .about{padding-top: 10%;text-align: center}
+  .about > .container{padding-bottom: 7%}
+  .aboutBtn {padding: 3% 6%}
+}
+
+@media screen and (max-width: 576px) {
+  .home{padding: 95px 0}
+  .home .homeContent {padding: 20px}
+  .home .homeContentLeft h1, .home .homeContentLeft .single-encapsulation{padding: 0px}
+  .home .homeContentLeft .startbtn{padding: 0px}
+  .homeLogoImg {height: auto}
+  .svgGroup2A {right: 25%}
+  .about{padding-top: 15%}
+  .about > .container{padding-bottom: 10%}
+  #headingColorChange{
+    width: 80%;
+    margin: 0 auto 10% auto;
+  }
+  .singleProductImage {width: 90%;height: auto}
+  .singleProductDescription{width: 100%}
+  .products {padding: 100px 0}
+}
+
+@media screen and (max-width: 400px){
+  .about{padding-top: 20%}
+  .aboutImgSection{margin-bottom: 15%}
+  .aboutSecondSection {padding: 20% 0 15% 0}
+  .products {padding: 80px 0}
+}
+
+
+/* end additional responsive 
